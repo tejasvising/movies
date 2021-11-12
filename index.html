@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head><title>Electron JS</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <style>
+       #final{
+           display:flex;
+           flex-direction: row;
+           justify-content: space-between;
+           flex:1;
+       }
+       #align{
+           display:flex;
+           flex-direction: row;
+       }
+       #internal{
+           display:flex;
+           flex-direction:row;
+           justify-content: space-between;
+       }
+    </style>
+    <div id="internal">
+    <h1>Movies Search</h1>
+    <form id="searchForm">
+        <input type="text" placeholder="movie name" name="query">
+        <button id="Search">Search</button>
+    </form></div>
+    <div id="final">
+       
+    </div>
+    <script src="api.js"></script>
+</body>
+</html>
